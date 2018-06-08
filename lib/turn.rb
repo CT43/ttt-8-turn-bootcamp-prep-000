@@ -23,8 +23,8 @@ def input_to_index(num)
    num.to_i - 1
 end
 
-def move(board, position, x_or_o = "X")
-  board[position] = x_or_o
+def move(board, index, x_or_o = "X")
+  board[index] = x_or_o
   
 end
 
